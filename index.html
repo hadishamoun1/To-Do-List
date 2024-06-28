@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasker</title>
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="mytask">
+           <h1>To Do List</h1> 
+        </div>
+        <hr class="divider">
+        <div class="input-div">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Name">
+            </div>
+            <div>
+                <label for="text">Description:</label>
+                <input type="text" name="text"  id="text" placeholder="Description">
+            </div>
+            <div><label for="date">Date:</label>
+                <input type="datetime-local" name="date" id="date" placeholder="date and time">
+            </div>
+            
+            <button id="addtask-btn" >Add Task</button>
+
+        </div>
+        <div class="pcp-text">
+            <div class="pending-text">Pending</div>
+            <div class="completed-text">Completed</div>
+            <div class="pastdue-text">Past Due</div>
+        </div>
+        <div class="task-mang">
+           
+            <div class="pending" >
+                
+            </div>
+            <div class="completed"></div>
+            <div class="pastdue"></div>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
